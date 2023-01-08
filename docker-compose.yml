@@ -4,5 +4,5 @@ services:
     web-node-js:
         image: ekachansr/webappdotnet6:latest
         ports:
-            - "4000:4000"
+            - "8004:8004"
         
