@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        image = "ekachansr/webappdotnet6:latest"
+        image = "ekachansr/webappdotnet:latest"
         registry = "docker.io"
     }
 
