@@ -4,7 +4,7 @@ services:
     webapp:
         image: ekachansr/webappdotnet6:latest
         ports:
-          - "5000:80"
+          - "5000:5000"
         container_name: webappdotnet6
         volumes:
           - ./logs:/app/logs
