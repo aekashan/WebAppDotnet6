@@ -2,7 +2,7 @@ version: '3'
 
 services:
     webapp:
-        image: ekachansr/webappdotnet6.1:latest
+        image: ekachansr/webappdotnet6_1:latest
         ports:
           - "5010:5010"
         container_name: webappdotnet6
